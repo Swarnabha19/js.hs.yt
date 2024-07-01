@@ -1,1 +1,1 @@
-console.log("tojo")
+console.log("tojo");
