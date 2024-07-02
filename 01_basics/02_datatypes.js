@@ -18,3 +18,4 @@ let isloggedIn = false // boolean datatype
 
 console.log(typeof null);
 console.log(typeof undefined);
+console.log(typeof age);
