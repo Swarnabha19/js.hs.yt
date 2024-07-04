@@ -1,4 +1,5 @@
 const name = "tojo"
+console.log(typeof name);
 const repoCount = 50
 console.log(name + repoCount + " value"); // backdated method
 
@@ -7,6 +8,7 @@ console.log(`hello my name is is ${name} and my repo count is ${repoCount}`); //
 const gameName = new String("swarnabha") // new keyword object use korchhi ar constructor er modhye string
 
 console.log(gameName);
+console.log(typeof gameName); // string is declared as object 
 
 //********************************* STRING METHODS*******************************
 
@@ -28,6 +30,7 @@ console.log(newString)
 console.log(gameName.substring(5,8)); // another method
 
 const anotherString = gameName.slice(-8, 4)
+
 
 console.log(anotherString);
 
