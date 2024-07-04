@@ -22,10 +22,31 @@ console.log(gameName.charAt(2));
 
 console.log(gameName.indexOf("n"));
 
-const newString = gameName.substring(0, 4) // we cannot give negetive value
+const newString = gameName.substring(1,5) // we cannot give negetive value
+console.log(newString)
 
-console.log(newString);
+console.log(gameName.substring(5,8)); // another method
 
 const anotherString = gameName.slice(-8, 4)
 
 console.log(anotherString);
+
+const newStringOne = "    sarker    "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://swarnabha.com/tojo%20sarker"
+
+console.log(url.replace("%20" , "-")) // want to replace %20 with "-""
+
+console.log(url.includes("tojo")) // check weather tojo is present or not
+
+const username = new String("tuli- sarker-female")
+console.log(username.split("-"));
+
+const x = new String("rini  sarker")
+console.log(x.split(" "));
+
+
+
+
