@@ -63,8 +63,9 @@ console.log(Math.floor(Math.random()*10) +1); // floor value to get integer betw
 const min = 10
 const max = 20
 
-console.log(Math.random() * (max- min + 1) + min) // between 10 and 20
-
+console.log(Math.random() * (max- min + 1) + min) // between 10 and 20  
+console.log((Math.random() * 10) + 1 + min)
+console.log(Math.floor(Math.random() * 10) + 1 + min)
 console.log(Math.floor(Math.random() * (max- min + 1) + min));
 
 
